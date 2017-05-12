@@ -1,0 +1,35 @@
+.mp--header {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #888888;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mp--header__logo {
+    flex-grow: 1;
+    font-size: 1.25rem;
+}
+
+.mp--logo__header {
+    font-size: var(--webkit-xxx-large);
+}
+
+.mp--logo__footer {
+    font-size: small;
+}
+
+.mp--header__menu {
+    flex-grow: 1;
+    font-size: large;
+}
+
+.mp--menu__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mp--item__header {
+    font-size: xx-large;
+}

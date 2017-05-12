@@ -1,0 +1,42 @@
+.mp--content__contact {
+    height: var(--content-block-size);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mp--contact__backgroundImage {
+    height: var(--content-block-size);
+    background-image: url(../images/mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.mp--contact__content {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transform: translate(0%, 0%);
+    -moz-transform: translate(0%, -250%);
+}
+
+.mp--content__title {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.mp--content__description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
